@@ -5,5 +5,6 @@ def reverse_each_word(string)
   reversed_words = list.collect do |word|
     word.reverse
   end
-  binding.pry
+  reversed_words.join
+
 end
